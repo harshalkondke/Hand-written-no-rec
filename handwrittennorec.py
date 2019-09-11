@@ -58,9 +58,9 @@ import matplotlib.pyplot as plt
 plt.show(plt.imshow(X_train[2][0]))
 
 """if lasagne is not present in your colab, exicute this line of code"""
-
-!pip install git+https://github.com/Lasagne/Lasagne
-!pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git --user
+#exicute this two lines in terminal
+# pip install git+https://github.com/Lasagne/Lasagne
+# pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git --user
 
 import lasagne
 import theano
